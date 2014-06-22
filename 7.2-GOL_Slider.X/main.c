@@ -65,7 +65,7 @@ int main( void)
     // 4. create the window object (banner)
     WndCreate(  2,                      // unique ID
                 0, 0, GetMaxX(), GetMaxY(),
-                WND_DRAW | WND_TITLECENTER,
+                WND_DRAW_TITLE | WND_TITLECENTER,
                 NULL,                   // icon
                 "Slider Demo",          // window title
                 myStyle                 // default style scheme
