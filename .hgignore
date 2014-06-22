@@ -1,5 +1,8 @@
 syntax: glob
+build
+dist
 .DS_Store
 GTSU1\.1\.zip
 Microchip
 DOCS
+private
