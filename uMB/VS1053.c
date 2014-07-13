@@ -56,6 +56,7 @@ void MP3Init( WORD mode)
     MP3_CS_Config();                // make xCs output
     MP3_DCS_Config();               // make xDCs output
 
+    MP3_SPIENABLE = 0;              // stop SPI
     MP3_SPICON1 = 0x007C;           // cke=0 and ckp=1, master 8-bit, pre 1:64
     MP3_SPIENABLE = 1;              // on
 
