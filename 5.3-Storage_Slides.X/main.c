@@ -95,7 +95,7 @@ int main( void )
             LCDCenterString( 0, "Unable to Display");
         }
 
-        ScreenCapture( "screen2.scr");
+//        ScreenCapture( "screen2.scr");
 
         
         // 6. prompt to continue

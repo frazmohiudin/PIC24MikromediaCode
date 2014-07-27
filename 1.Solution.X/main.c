@@ -5,7 +5,7 @@
 
 #include "xc.h"
 #include <rtcc.h>
-#include <PwrMgnt.h>
+//#include <PwrMgnt.h>
 
 _CONFIG1( JTAGEN_OFF        // disable JTAG interface
         & GCP_OFF           // disable general code protection
@@ -29,7 +29,9 @@ _CONFIG1( JTAGEN_OFF        // disable JTAG interface
 #define LED_BLED                _RD2
 #define ConfigureBacklight()    _TRISD2 = 0
 
-void _ISR  _RTCCInterrupt( void)
+#define __RTCC_ISR    __attribute__((interrupt, shadow, no_auto_psv))
+
+void __RTCC_ISR  _RTCCInterrupt( void)
 {
     LED_BLED = 1 - LED_BLED;    // toggle LED_BLED output
     _RTCIF = 0;
@@ -49,7 +51,7 @@ int main( void )
     // 2. main loop
     while( 1)
     {
-        mPWRMGNT_GotoSleepMode();   // go to sleep
+        Sleep(); //mPWRMGNT_GotoSleepMode();   // go to sleep
 
     } // main loop
 

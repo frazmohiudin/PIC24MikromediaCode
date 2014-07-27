@@ -75,8 +75,9 @@ void MP3Init( WORD mode)
     writeMP3Register( MP3_REG_CLOCKF, 0x2000);
 
     // can change to full speed now
+    MP3_SPIENABLE = 0;              // stop SPI
     MP3_SPICON1 = 0x007E;
-
+    MP3_SPIENABLE = 1;              // on
 } // MP3Init
 
 

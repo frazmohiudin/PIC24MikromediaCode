@@ -25,6 +25,7 @@
         <itemPath>../Microchip/Common/TimeDelay.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/HX8347.c</itemPath>
         <itemPath>../Microchip/Graphics/Primitive.c</itemPath>
+        <itemPath>../uMB/IL9341.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -47,7 +48,7 @@
         <targetDevice>PIC24FJ256GB110</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>XC16</languageToolchain>
         <languageToolchainVersion>1.20</languageToolchainVersion>
         <platform>4</platform>
@@ -57,8 +58,11 @@
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
       </compileType>
@@ -110,6 +114,8 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
       </C30>
+      <C30-AR>
+      </C30-AR>
       <C30-AS>
       </C30-AS>
       <C30-LD>
