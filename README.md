@@ -20,8 +20,6 @@ Dependencies:
 * MPLAB X 1.8 or later
 * XC16 v.1.20 or later
 * MLA version 2013-06-15 (aka "legacy" MLA)
-* How to run tests
-* Deployment instructions
 
 ### Who do I talk to? ###
 
