@@ -39,8 +39,6 @@ void TickInit( unsigned period_ms)
 
 int main( void )
 {
-    char s[64];
-
     // 1. init the graphics
     LCDInit();
     DisplayBacklightOn();
@@ -64,14 +62,14 @@ int main( void )
 
         if (( TouchGetX() != -1) && ( TouchGetY() != -1))
         {
-            sprintf( s, "\n  %d, %d", TouchGetX(), TouchGetY());
-            LCDPutString( s);
+            AT( 1, _MAX_Y/2);
+            printf( "Touched at:  %4d, %4d", TouchGetX(), TouchGetY());
 
-            if ( TouchGetX() > 160)
-            {
-                uMBInit(); FSInit();
-                ScreenCapture( "4-1-TERM.SCR");
-            }
+//            if ( TouchGetX() > 160)
+//            {
+//                uMBInit(); FSInit();
+//                ScreenCapture( "4-1-TERM.SCR");
+//            }
         }
 
     } // main loop

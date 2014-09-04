@@ -70,7 +70,7 @@ int main( void )
     uMBInit();                                // init pins and ports
     LCDInit();                                // inits terminal emulation
     DisplayBacklightOn();
-    TouchGridInit( GetMaxX()/3, GetMaxY()/3); // defines a 3x3 grid
+    TouchGridInit( 3, 3);                     // defines a 3x3 grid
     ImageDecoderInit();                       // init the image decoding lib
 
     // 2. splash screen

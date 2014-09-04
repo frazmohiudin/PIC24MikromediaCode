@@ -44,14 +44,14 @@
  * 07/02/12     Modified PutImageXBPPYYY() functions to use new API.
  * 10/01/13     Ported to IL9341
  *****************************************************************************/
-#include "HardwareProfile.h"
+//#include "HardwareProfile.h"
 
 #if defined GFX_USE_DISPLAY_CONTROLLER_IL9341
 
 #include "Compiler.h"
 #include "TimeDelay.h"
 #include "Graphics/DisplayDriver.h"
-#include "Graphics/IL9341.h"
+//#include "Graphics/IL9341.h"
 #include "Graphics/Primitive.h"
 
 #if defined (USE_GFX_PMP)

@@ -6,8 +6,7 @@
                    projectFiles="true">
       <itemPath>../uMB/HardwareProfile.h</itemPath>
       <itemPath>GraphicsConfig.h</itemPath>
-      <itemPath>../Microchip/Include/Graphics/GOL.h</itemPath>
-      <itemPath>../Microchip/Include/Graphics/Graphics.h</itemPath>
+      <itemPath>uMBconfig.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -21,6 +20,8 @@
         <itemPath>../uMB/TouchScreenResistive.c</itemPath>
         <itemPath>../uMB/LCDTerminal.c</itemPath>
         <itemPath>../uMB/LCDTerminalFont.c</itemPath>
+        <itemPath>../uMB/uMedia.c</itemPath>
+        <itemPath>../uMB/TouchGrid.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="MLA" projectFiles="true">
         <itemPath>../Microchip/Common/TimeDelay.c</itemPath>
@@ -28,7 +29,10 @@
         <itemPath>../Microchip/Graphics/Drivers/HX8347.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/IL9341.c</itemPath>
       </logicalFolder>
-      <itemPath>bitmaps.c</itemPath>
+      <logicalFolder name="f3" displayName="Resources" projectFiles="true">
+        <itemPath>bitmaps.c</itemPath>
+        <itemPath>droid36.c</itemPath>
+      </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -41,6 +45,7 @@
     <Elem>../Microchip/Include/Graphics</Elem>
     <Elem>../Microchip/Graphics/Drivers</Elem>
     <Elem>../../Mikromedia Bootloader/Application Scripts</Elem>
+    <Elem>../uMB</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -224,6 +229,7 @@
         <property key="UART 4" value="true"/>
         <property key="UCNFG1" value="true"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="false"/>

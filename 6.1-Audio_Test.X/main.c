@@ -42,11 +42,6 @@ void MP3Init( WORD mode)
     // double the codec clock frequency
     writeMP3Register( MP3_REG_CLOCKF, 0x2000);
 
-    // can change to full speed now
-    MP3_SPIENABLE = 0;      // SPI off
-    MP3_SPICON1 = 0x007E;
-    MP3_SPIENABLE = 1;      // SPI on
-
 } // MP3Init
 
 

@@ -43,7 +43,7 @@ int main( void )
     ClearDevice();              // show green screen if successful initializing
 
     // try to open an MP3 file
-    if ( (fp = FSfopen( "Kalimba.mp3", "r")) == NULL)
+    if ( (fp = FSfopen( "SONG.MP3", "r")) == NULL)
     {
         SetColor( BRIGHTRED);
         ClearDevice();          // show red screen if could not find the file

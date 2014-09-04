@@ -37,6 +37,7 @@
         <itemPath>../Microchip/MDD File System/FSIO.c</itemPath>
         <itemPath>../Microchip/Common/TimeDelay.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/HX8347.c</itemPath>
+        <itemPath>../uMB/IL9341.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -46,6 +47,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../uMB</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">

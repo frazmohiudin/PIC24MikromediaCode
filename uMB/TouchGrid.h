@@ -21,7 +21,7 @@ typedef struct
     unsigned      y: 4;     // y coordinate on the touch grid
     unsigned  valid: 1;     // flag, indicates a valid touch event detected
     unsigned option: 1;     // flag, can be use to capture long touch events
-} t_code;
+} code_t;
 
 
 /**
@@ -40,7 +40,7 @@ void TouchGridInit( int x, int y);
  *
  * @return  t_code containing current status
  */
-t_code TouchGet( void);
+code_t TouchGet( void);
 
 
 /**
@@ -48,7 +48,7 @@ t_code TouchGet( void);
  *              event duration (setting the option flag)
  * @return
  */
-t_code TouchGrid( void);
+code_t TouchGrid( void);
 
 
 /**

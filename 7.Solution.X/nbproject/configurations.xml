@@ -108,13 +108,13 @@
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/drvTFT001.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/drvTFT002.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/HIT1270.c</itemPath>
-        <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/HX8347.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/S1D13517.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/SH1101A_SSD1303.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/SSD1339.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/SSD1926.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/ST7529.c</itemPath>
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/UC1610.c</itemPath>
+        <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/IL9341.c</itemPath>
       </logicalFolder>
       <logicalFolder name="Graphics" displayName="Graphics" projectFiles="true">
         <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/GOL.c</itemPath>
@@ -160,6 +160,7 @@
   <sourceRootList>
     <Elem>../Microchip/MDD File System</Elem>
     <Elem>../uMB</Elem>
+    <Elem>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -169,7 +170,7 @@
         <targetDevice>PIC24FJ256GB110</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>XC16</languageToolchain>
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>4</platform>
@@ -179,8 +180,11 @@
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
       </compileType>
@@ -208,7 +212,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="extra-include-directories"
-                  value=".;../Board Support Package;../Microchip/Include;../uMB;Test"/>
+                  value="../Board Support Package;../Microchip/Include;Test;."/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>
@@ -233,6 +237,9 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
       </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
       <C30-AS>
       </C30-AS>
       <C30-LD>
@@ -247,11 +254,19 @@
         <property key="enable-handles" value="true"/>
         <property key="enable-pack-data" value="true"/>
         <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
         <property key="general-code-protect" value="no_code_protect"/>
         <property key="general-write-protect" value="no_write_protect"/>
         <property key="generate-cross-reference-file" value="false"/>
         <property key="heap-size" value="1024"/>
         <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
         <property key="linker-symbols" value=""/>
         <property key="map-file" value=""/>
         <property key="oXC16ld-extra-opts" value=""/>
@@ -273,14 +288,17 @@
         <property key="warn-section-align" value="false"/>
       </C30-LD>
       <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
         <property key="fast-math" value="false"/>
         <property key="generic-16-bit" value="false"/>
         <property key="legacy-libc" value="false"/>
         <property key="oXC16glb-macros" value=""/>
         <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
       </C30Global>
-      <PICkit3PlatformTool>
+      <ICD3PlatformTool>
         <property key="ADC 1" value="true"/>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="CLOCK CONTROL" value="true"/>
@@ -326,20 +344,21 @@
         <property key="UART 3" value="true"/>
         <property key="UART 4" value="true"/>
         <property key="UCNFG1" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="false"/>
-        <property key="memories.configurationmemory" value="false"/>
-        <property key="memories.eeprom" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
         <property key="memories.flashdata" value="true"/>
-        <property key="memories.id" value="false"/>
+        <property key="memories.id" value="true"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.end" value="0x2abf7"/>
         <property key="memories.programmemory.start" value="0x0"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
-        <property key="programoptions.pgmspeed" value="2"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveprogramrange.end" value="0x2abf7"/>
@@ -349,7 +368,7 @@
         <property key="programoptions.usehighvoltageonmclr" value="false"/>
         <property key="programoptions.uselvpprogramming" value="false"/>
         <property key="voltagevalue" value="3.25"/>
-      </PICkit3PlatformTool>
+      </ICD3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>

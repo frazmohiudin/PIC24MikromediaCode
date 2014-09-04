@@ -38,7 +38,7 @@
 #include "Main.h"
 #include "GDD_Screens.h"
 
-#include "ADXL345.h"
+#include "../uMB/ADXL345.h"
 
 //#define _SCREENCAPTURE
 
@@ -224,7 +224,7 @@ int main(void)
             SetState( s, PB_DRAW_BAR | PB_VERTICAL);
 
             p = (METER*)GOLFindObject( MTR_Z);
-            MtrSetVal( p, (z>>1)+256); SetState( p, MTR_DRAW_UPDATE);
+            MtrSetVal( p, (z>>1)+128); SetState( p, MTR_DRAW_UPDATE);
 
         }
     }//end while

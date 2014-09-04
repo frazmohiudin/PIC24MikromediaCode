@@ -32,10 +32,10 @@
 #define DISP_VER_RESOLUTION             320
 
 // display type MIO283QT2 - HX8347D controller - 8-bit PMP interface
-#define GFX_USE_DISPLAY_CONTROLLER_HX8347D
+//#define GFX_USE_DISPLAY_CONTROLLER_HX8347D
 
 // display type MIO283QT-9A - ILI9341 controller - 8-bit PMP interface
-//#define GFX_USE_DISPLAY_CONTROLLER_IL9341
+#define GFX_USE_DISPLAY_CONTROLLER_IL9341
 
 // interface
 #define USE_GFX_PMP

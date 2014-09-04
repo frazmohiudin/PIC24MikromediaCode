@@ -3,14 +3,14 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Pond</name>
-            <creation-uuid>f3c5f0d8-3b2f-4ab0-ad10-d319440ca8c3</creation-uuid>
+            <name>6.Alarm</name>
+            <creation-uuid>30c02a93-1a2e-4362-8470-7249253cbcc9</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
             <header-extensions>h</header-extensions>
-            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <asminc-extensions/>
             <make-dep-projects/>
         </data>
     </configuration>

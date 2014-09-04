@@ -26,10 +26,10 @@ int main( void )
 
 
     // 2. initializations
-    uMBInit();                                // init pins and ports
-    LCDInit();                                // inits terminal emulation
+    uMBInit();                  // init pins and ports
+    LCDInit();                  // inits terminal emulation
     DisplayBacklightOn();
-    TouchGridInit( GetMaxX()/3, GetMaxY()/3); // defines a 3x3 grid
+    TouchGridInit( 3, 3);       // defines a 3x3 grid
 
 
     // 3. splash screen
@@ -53,7 +53,7 @@ int main( void )
         }
 
         // 5. try to open a file
-        if ( (fp = FSfopen( "README.txt", "r")) == NULL)
+        if ( (fp = FSfopen( "README.TXT", "r")) == NULL)
         {
             LCDPutString( "\n File Not Found");
         }

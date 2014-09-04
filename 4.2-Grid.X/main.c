@@ -97,7 +97,8 @@ int TouchGrid( void)
 
 int main( void )
 {
-//    char s[64];
+    SHORT sx = (GetMaxX()+1)/4;
+    SHORT sy = (GetMaxY()+1)/4;
 
     // 1. init the graphics
     LCDInit();
@@ -122,24 +123,36 @@ int main( void )
     {
         int x, y;
 
+        // draw a grid
+        SetColor( LIGHTGRAY);
+        SetLineType( DASHED_LINE);
+        for( x=1; x<4; x++)
+            Line( x*sx, 0, x*sx, GetMaxY());
+        for( y=1; y<4; y++)
+            Line( 0, y*sy, GetMaxX(), y*sy);
+
+
         // wait for touch on the grid
         int q = TouchGrid();
 
         // remove previous images
-        SetColor( LCD_BACK); ClearDevice();
+        SetColor( LCD_BACK);
+        ClearDevice();
 
         // choose color based on how long the pressure has been applied
         SetColor( ( q & 0x80) ? BRIGHTRED : LCD_FORE );
 
         // position a filled tile on the grid
-        y = GetMaxY()/4 * ( ( q >> 2) & 0x3) +5;
-        x = GetMaxX()/4 * (q & 0x3) +5;
-        FillBevel( x, y, x + ( GetMaxX()/4)-10, y + ( GetMaxY()/4)-10, 5);
-        if ( x >160)
-        {
-            uMBInit(); FSInit();
-            ScreenCapture( "4-2-GRID.SCR");
-        }
+        y = sy * ( ( q >> 2) & 0x3);
+        x = sx * ( q & 0x3);
+        FillBevel( x+5, y+5, x + sx-5, y + sy-5, 5);
+
+// // screen capture
+//        if ( x >160)
+//        {
+//            uMBInit(); FSInit();
+//            ScreenCapture( "4-2-GRID.SCR");
+//        }
 
     } // main loop
 } // main

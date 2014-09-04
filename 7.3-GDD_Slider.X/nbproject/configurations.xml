@@ -115,6 +115,7 @@
         <itemPath>../Microchip/Graphics/Drivers/SSD1926.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/ST7529.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/UC1610.c</itemPath>
+        <itemPath>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers/IL9341.c</itemPath>
       </logicalFolder>
       <logicalFolder name="Graphics" displayName="Graphics" projectFiles="true">
         <itemPath>../Microchip/Graphics/GOL.c</itemPath>
@@ -158,6 +159,7 @@
     <Elem>Slider</Elem>
     <Elem>../Microchip/MDD File System</Elem>
     <Elem>../uMB</Elem>
+    <Elem>../../../MAL/microchip_solutions_v2013-02-15/Microchip/Graphics/Drivers</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -167,7 +169,7 @@
         <targetDevice>PIC24FJ256GB110</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>XC16</languageToolchain>
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>4</platform>
@@ -177,8 +179,11 @@
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
       </compileType>
@@ -231,6 +236,8 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
       </C30>
+      <C30-AR>
+      </C30-AR>
       <C30-AS>
       </C30-AS>
       <C30-LD>

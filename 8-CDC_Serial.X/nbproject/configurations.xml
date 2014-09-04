@@ -6,14 +6,7 @@
                    projectFiles="true">
       <itemPath>usb_config.h</itemPath>
       <itemPath>../uMB/HardwareProfile.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb_ch9.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb_common.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb_device.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb_function_cdc.h</itemPath>
-      <itemPath>../Microchip/Include/USB/usb_hal_pic24f.h</itemPath>
       <itemPath>GraphicsConfig.h</itemPath>
-      <itemPath>../Microchip/Include/Graphics/GOL.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -76,8 +69,11 @@
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
       </compileType>
@@ -129,6 +125,8 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
       </C30>
+      <C30-AR>
+      </C30-AR>
       <C30-AS>
         <property key="assembler-symbols" value=""/>
         <property key="expand-macros" value="false"/>
