@@ -2,7 +2,7 @@
  * Project: Audio_Play
  * File:    main.c
  *
- * Requires: MAL 1306
+ * Requires: MLA 1306
  */
 
 #include "PICconfig.h"

@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>4.Pond</name>
+            <name>4.Bonus-Pond</name>
             <creation-uuid>f3c5f0d8-3b2f-4ab0-ad10-d319440ca8c3</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

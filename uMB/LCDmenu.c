@@ -1,7 +1,7 @@
 /*
  * File:   LCDmenu.c
  *
- * Requires: MAL 1306, LCDTerminal.c, TouchGrid.c
+ * Requires: MLA 1306, LCDTerminal.c, TouchGrid.c
  */
 
 #include "LCDmenu.h"

@@ -2,7 +2,7 @@
  * File:   TouchGrid.c
  *
  *
- * Requires: MAL 1306, LCDTerminal.c, TouchScreen.c
+ * Requires: MLA 1306, LCDTerminal.c, TouchScreen.c
  */
 
 #include "HardwareProfile.h"

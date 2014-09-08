@@ -2,7 +2,7 @@
  Project:       8-HID_Simple
  FileName:      main.c
  Hardware:      PIC24 Mikromedia
- Requires:      MLA 13-06
+ Requires:      MLA 1306
  ********************************************************************/
 
 #include <xc.h>

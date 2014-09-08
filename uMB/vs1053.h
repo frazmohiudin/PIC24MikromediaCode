@@ -4,7 +4,7 @@
  *
  * Created on January 17, 2013
  *
- * Requires: MAL 2012-10 or later
+ * Requires: MLA 2012-10 or later
  */
 
 #ifndef _VS1053

@@ -4,7 +4,7 @@
  *
  * Desc:    Basic example of use of the MDD File System library
  *
- * Requires: MAL 1302
+ * Requires: MLA 1306
  */
 
 #include "PICconfig.h"
