@@ -13,10 +13,10 @@
 #include "TimeDelay.h"
 #include "LCDTerminal.h"
 #include "TouchGrid.h"
+
 #include "MDD File System/FSIO.h"
 
-
-char data[ 400];        // a buffer of arbitrary length
+char data[ 400];                // a buffer of arbitrary length
 
 int main( void )
 {
@@ -24,13 +24,11 @@ int main( void )
     unsigned length;
     char *p;
 
-
     // 2. initializations
     uMBInit();                  // init pins and ports
     LCDInit();                  // inits terminal emulation
     DisplayBacklightOn();
     TouchGridInit( 3, 3);       // defines a 3x3 grid
-
 
     // 3. splash screen
     LCDClear();
@@ -38,7 +36,6 @@ int main( void )
     LCDCenterString( +1,  "tap to start");
     TouchGrid();
     LCDClear();
-
 
     // Main Loop
     while( 1 )

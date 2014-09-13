@@ -14,13 +14,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <logicalFolder name="f1" displayName="BSP" projectFiles="true">
-        <itemPath>../uMB/drv_spi.c</itemPath>
-        <itemPath>../uMB/M25P80.c</itemPath>
-        <itemPath>../uMB/TouchScreen.c</itemPath>
-        <itemPath>../uMB/TouchScreenResistive.c</itemPath>
-        <itemPath>../uMB/uMedia.c</itemPath>
-      </logicalFolder>
       <logicalFolder name="f3" displayName="Capture" projectFiles="true">
         <itemPath>../Microchip/MDD File System/FSIO.c</itemPath>
         <itemPath>../Microchip/MDD File System/SD-SPI.c</itemPath>
@@ -35,6 +28,13 @@
         <itemPath>../Microchip/Graphics/Slider.c</itemPath>
         <itemPath>../Microchip/Graphics/Window.c</itemPath>
         <itemPath>../Microchip/Graphics/Drivers/IL9341.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="uMB" projectFiles="true">
+        <itemPath>../uMB/drv_spi.c</itemPath>
+        <itemPath>../uMB/M25P80.c</itemPath>
+        <itemPath>../uMB/TouchScreen.c</itemPath>
+        <itemPath>../uMB/TouchScreenResistive.c</itemPath>
+        <itemPath>../uMB/uMedia.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>

@@ -87,32 +87,9 @@ int Menu( char list[][16], int items)
             if ( n < items-1) n++;
         }
 
+// screen capture
 //        else if (c.x == 0)      // left side of the screen
 //        {
-//            FSFILE *fp;
-//            int j, i;
-//            GFX_COLOR Row[320];
-//
-//            // screen capture
-//            fp = FSfopen( "screen.scr", FS_WRITE);
-//            if ( fp != NULL)
-//            {
-//                // dump contents of the screen
-//                for(j=0; j<=GetMaxY(); j++)
-//                {
-//                    // row by row
-//                    for( i=0; i<=GetMaxX(); i++)
-//                    {
-//                        Row[ i] = GetPixel( i, j);
-//                    }
-//
-//                    // write buffer to file
-//                    FSfwrite( Row, sizeof(Row), 1, fp);
-//                }
-//
-//                // close file
-//                FSfclose( fp);
-//            }
 //        } // screen capture
 
     } // while
@@ -123,7 +100,7 @@ int Menu( char list[][16], int items)
 // Let the user choose a file from a list selected by extension
 void SelectFile( char *fn, char *ext)
 { // fn    pointer to selected filename
-  // ext   "*.AVI" selection criteria
+  // ext   "*.TXT" selection criteria
 
     char list[ N_FILES][16];
     int n = 0;
@@ -142,9 +119,11 @@ void SelectFile( char *fn, char *ext)
         // 2. search for ".ext" files and put them in list
         if ( !FindFirst( ext, ATTR_READ_ONLY | ATTR_ARCHIVE, &sr))
         {
-            do{ // while there are files matching
+            do{
+                // while there are files matching
                 // copy the file name
                 strncpy( list[ n++], sr.filename, 16);
+
                 // check if list full
                 if ( n==N_FILES)
                     break;
@@ -207,7 +186,7 @@ int main( void )
         LCDClear();
 
         // 6.1 let the user choose a suitanle text file
-        SelectFile( filename, "*.txt");
+        SelectFile( filename, "*.TXT");
         
         // 6.2 try to open a file
         if ( (fp = FSfopen( filename, "r")) == NULL)

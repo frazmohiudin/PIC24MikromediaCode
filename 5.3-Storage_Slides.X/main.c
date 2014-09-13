@@ -53,7 +53,7 @@ int PutSlide( char *filename)
         ImageFullScreenDecode( pImageFile, fmt, NULL, NULL);
         IMG_FCLOSE(pImageFile);
     }
-
+   
     // return success
     return( 0);
 } // PutSlide

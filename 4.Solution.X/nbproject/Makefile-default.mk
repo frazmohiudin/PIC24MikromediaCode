@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../uMB/TouchScreen.c ../uMB/TouchScreenResistive.c ../uMB/LCDTerminal.c ../uMB/LCDTerminalFont.c ../uMB/uMedia.c ../uMB/TouchGrid.c ../Microchip/Common/TimeDelay.c ../Microchip/Graphics/Primitive.c ../Microchip/Graphics/Drivers/HX8347.c ../Microchip/Graphics/Drivers/IL9341.c bitmaps.c droid36.c main.c
+SOURCEFILES_QUOTED_IF_SPACED=../Microchip/Common/TimeDelay.c ../Microchip/Graphics/Primitive.c ../Microchip/Graphics/Drivers/HX8347.c ../Microchip/Graphics/Drivers/IL9341.c bitmaps.c droid36.c ../uMB/TouchScreen.c ../uMB/TouchScreenResistive.c ../uMB/LCDTerminal.c ../uMB/LCDTerminalFont.c ../uMB/uMedia.c ../uMB/TouchGrid.c main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1360937979/TouchScreen.o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o ${OBJECTDIR}/_ext/1360937979/uMedia.o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o ${OBJECTDIR}/_ext/221508487/TimeDelay.o ${OBJECTDIR}/_ext/1713430119/Primitive.o ${OBJECTDIR}/_ext/1575306571/HX8347.o ${OBJECTDIR}/_ext/1575306571/IL9341.o ${OBJECTDIR}/bitmaps.o ${OBJECTDIR}/droid36.o ${OBJECTDIR}/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d ${OBJECTDIR}/_ext/1360937979/uMedia.o.d ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d ${OBJECTDIR}/_ext/221508487/TimeDelay.o.d ${OBJECTDIR}/_ext/1713430119/Primitive.o.d ${OBJECTDIR}/_ext/1575306571/HX8347.o.d ${OBJECTDIR}/_ext/1575306571/IL9341.o.d ${OBJECTDIR}/bitmaps.o.d ${OBJECTDIR}/droid36.o.d ${OBJECTDIR}/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/221508487/TimeDelay.o ${OBJECTDIR}/_ext/1713430119/Primitive.o ${OBJECTDIR}/_ext/1575306571/HX8347.o ${OBJECTDIR}/_ext/1575306571/IL9341.o ${OBJECTDIR}/bitmaps.o ${OBJECTDIR}/droid36.o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o ${OBJECTDIR}/_ext/1360937979/uMedia.o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o ${OBJECTDIR}/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/221508487/TimeDelay.o.d ${OBJECTDIR}/_ext/1713430119/Primitive.o.d ${OBJECTDIR}/_ext/1575306571/HX8347.o.d ${OBJECTDIR}/_ext/1575306571/IL9341.o.d ${OBJECTDIR}/bitmaps.o.d ${OBJECTDIR}/droid36.o.d ${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d ${OBJECTDIR}/_ext/1360937979/uMedia.o.d ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d ${OBJECTDIR}/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1360937979/TouchScreen.o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o ${OBJECTDIR}/_ext/1360937979/uMedia.o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o ${OBJECTDIR}/_ext/221508487/TimeDelay.o ${OBJECTDIR}/_ext/1713430119/Primitive.o ${OBJECTDIR}/_ext/1575306571/HX8347.o ${OBJECTDIR}/_ext/1575306571/IL9341.o ${OBJECTDIR}/bitmaps.o ${OBJECTDIR}/droid36.o ${OBJECTDIR}/main.o
+OBJECTFILES=${OBJECTDIR}/_ext/221508487/TimeDelay.o ${OBJECTDIR}/_ext/1713430119/Primitive.o ${OBJECTDIR}/_ext/1575306571/HX8347.o ${OBJECTDIR}/_ext/1575306571/IL9341.o ${OBJECTDIR}/bitmaps.o ${OBJECTDIR}/droid36.o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o ${OBJECTDIR}/_ext/1360937979/uMedia.o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o ${OBJECTDIR}/main.o
 
 # Source Files
-SOURCEFILES=../uMB/TouchScreen.c ../uMB/TouchScreenResistive.c ../uMB/LCDTerminal.c ../uMB/LCDTerminalFont.c ../uMB/uMedia.c ../uMB/TouchGrid.c ../Microchip/Common/TimeDelay.c ../Microchip/Graphics/Primitive.c ../Microchip/Graphics/Drivers/HX8347.c ../Microchip/Graphics/Drivers/IL9341.c bitmaps.c droid36.c main.c
+SOURCEFILES=../Microchip/Common/TimeDelay.c ../Microchip/Graphics/Primitive.c ../Microchip/Graphics/Drivers/HX8347.c ../Microchip/Graphics/Drivers/IL9341.c bitmaps.c droid36.c ../uMB/TouchScreen.c ../uMB/TouchScreenResistive.c ../uMB/LCDTerminal.c ../uMB/LCDTerminalFont.c ../uMB/uMedia.c ../uMB/TouchGrid.c main.c
 
 
 CFLAGS=
@@ -72,6 +72,9 @@ LDLIBSOPTIONS=
 FIXDEPS=fixDeps
 
 .build-conf:  ${BUILD_SUBPROJECTS}
+ifneq ($(INFORMATION_MESSAGE), )
+	@echo $(INFORMATION_MESSAGE)
+endif
 	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/4.Solution.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
 MP_PROCESSOR_OPTION=24FJ256GB110
@@ -79,48 +82,6 @@ MP_LINKER_FILE_OPTION=,--script=p24FJ256GB110.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1360937979/TouchScreen.o: ../uMB/TouchScreen.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreen.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o: ../uMB/TouchScreenResistive.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreenResistive.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/LCDTerminal.o: ../uMB/LCDTerminal.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminal.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o: ../uMB/LCDTerminalFont.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminalFont.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/uMedia.o: ../uMB/uMedia.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/uMedia.c  -o ${OBJECTDIR}/_ext/1360937979/uMedia.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/uMedia.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/uMedia.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/TouchGrid.o: ../uMB/TouchGrid.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchGrid.c  -o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/_ext/221508487/TimeDelay.o: ../Microchip/Common/TimeDelay.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/221508487 
 	@${RM} ${OBJECTDIR}/_ext/221508487/TimeDelay.o.d 
@@ -163,6 +124,48 @@ ${OBJECTDIR}/droid36.o: droid36.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  droid36.c  -o ${OBJECTDIR}/droid36.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/droid36.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
 	@${FIXDEPS} "${OBJECTDIR}/droid36.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
+${OBJECTDIR}/_ext/1360937979/TouchScreen.o: ../uMB/TouchScreen.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreen.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o: ../uMB/TouchScreenResistive.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreenResistive.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/LCDTerminal.o: ../uMB/LCDTerminal.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminal.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o: ../uMB/LCDTerminalFont.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminalFont.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/uMedia.o: ../uMB/uMedia.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/uMedia.c  -o ${OBJECTDIR}/_ext/1360937979/uMedia.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/uMedia.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/uMedia.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/TouchGrid.o: ../uMB/TouchGrid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchGrid.c  -o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1    -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR} 
 	@${RM} ${OBJECTDIR}/main.o.d 
@@ -171,48 +174,6 @@ ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 else
-${OBJECTDIR}/_ext/1360937979/TouchScreen.o: ../uMB/TouchScreen.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreen.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o: ../uMB/TouchScreenResistive.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreenResistive.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/LCDTerminal.o: ../uMB/LCDTerminal.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminal.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o: ../uMB/LCDTerminalFont.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminalFont.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/uMedia.o: ../uMB/uMedia.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/uMedia.c  -o ${OBJECTDIR}/_ext/1360937979/uMedia.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/uMedia.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/uMedia.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1360937979/TouchGrid.o: ../uMB/TouchGrid.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchGrid.c  -o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/_ext/221508487/TimeDelay.o: ../Microchip/Common/TimeDelay.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/221508487 
 	@${RM} ${OBJECTDIR}/_ext/221508487/TimeDelay.o.d 
@@ -254,6 +215,48 @@ ${OBJECTDIR}/droid36.o: droid36.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/droid36.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  droid36.c  -o ${OBJECTDIR}/droid36.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/droid36.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
 	@${FIXDEPS} "${OBJECTDIR}/droid36.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/TouchScreen.o: ../uMB/TouchScreen.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreen.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreen.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreen.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o: ../uMB/TouchScreenResistive.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchScreenResistive.c  -o ${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchScreenResistive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/LCDTerminal.o: ../uMB/LCDTerminal.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminal.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminal.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminal.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o: ../uMB/LCDTerminalFont.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/LCDTerminalFont.c  -o ${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/LCDTerminalFont.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/uMedia.o: ../uMB/uMedia.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/uMedia.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/uMedia.c  -o ${OBJECTDIR}/_ext/1360937979/uMedia.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/uMedia.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/uMedia.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1360937979/TouchGrid.o: ../uMB/TouchGrid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1360937979 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937979/TouchGrid.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uMB/TouchGrid.c  -o ${OBJECTDIR}/_ext/1360937979/TouchGrid.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d"        -omf=elf -mlarge-code -O1 -I"." -I"../Microchip/Include" -I"../uMB" -msmart-io=1 -Wall -msfr-warn=on
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937979/TouchGrid.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR} 

@@ -8,10 +8,6 @@
 #include "PICconfig.h"
 #include "LCDterminal.h"
 #include "TouchScreen.h"
-
-#include "uMedia.h"
-
-
 #include <stdio.h>          // sprintf
 
 #define __ISR  __attribute__((interrupt, shadow, no_auto_psv))

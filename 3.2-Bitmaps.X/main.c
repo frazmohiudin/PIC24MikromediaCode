@@ -2,16 +2,14 @@
  * File:   main.c
  * 
  * Chapter 3: Graphic Resources - Color Splashscreen
- * 
+ 
+ * Requires: MLA 1306
  */
-
-#include "xc.h"
 #include "PICconfig.h"
 #include "Graphics/Graphics.h"
-#include "Graphics/GOL.h"
 
 #include "resources.h"
-#include "uMedia.h"
+//#include "uMedia.h"   // used for screen capture
 
 int main( void )
 {
@@ -30,7 +28,7 @@ int main( void )
     w1 = GetTextWidth( s, (void*) &GOLFontDefault);
     OutTextXY( (GetMaxX()-w1)/2 , 0, s);
 
-    // 3. display  centered bitmaps
+    // 3. display two bitmaps with padding
     w1 = GetImageWidth( (void*)&fingerprint);
     w2 = GetImageWidth( (void*)&flower);
     pad = (GetMaxX()- w1 - w2) / 3;
@@ -41,7 +39,6 @@ int main( void )
 //    uMBInit();
 //    FSInit();
 //    ScreenCapture( "3-COLOR.SCR");
-
 
     // main loop
     while( 1)

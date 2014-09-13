@@ -15,14 +15,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <logicalFolder name="f2" displayName="BSP" projectFiles="true">
-        <itemPath>../uMB/TouchScreen.c</itemPath>
-        <itemPath>../uMB/TouchScreenResistive.c</itemPath>
-        <itemPath>../uMB/LCDTerminal.c</itemPath>
-        <itemPath>../uMB/LCDTerminalFont.c</itemPath>
-        <itemPath>../uMB/uMedia.c</itemPath>
-        <itemPath>../uMB/TouchGrid.c</itemPath>
-      </logicalFolder>
       <logicalFolder name="f1" displayName="MLA" projectFiles="true">
         <itemPath>../Microchip/Common/TimeDelay.c</itemPath>
         <itemPath>../Microchip/Graphics/Primitive.c</itemPath>
@@ -32,6 +24,14 @@
       <logicalFolder name="f3" displayName="Resources" projectFiles="true">
         <itemPath>bitmaps.c</itemPath>
         <itemPath>droid36.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="uMB" projectFiles="true">
+        <itemPath>../uMB/TouchScreen.c</itemPath>
+        <itemPath>../uMB/TouchScreenResistive.c</itemPath>
+        <itemPath>../uMB/LCDTerminal.c</itemPath>
+        <itemPath>../uMB/LCDTerminalFont.c</itemPath>
+        <itemPath>../uMB/uMedia.c</itemPath>
+        <itemPath>../uMB/TouchGrid.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>

@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>6.4-Audio_Interrupt</name>
+            <name>6.Solution_Interrupt</name>
             <creation-uuid>727c8a7e-a646-4ceb-a4e2-04ebcd0e98fa</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

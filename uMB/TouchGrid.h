@@ -1,14 +1,11 @@
 /*
  * File:   TouchGrid.h
  *
- *
  * Requires: MAL 1306
  */
-
 #ifndef  _TOUCH_GRID
 #define _TOUCH_GRID
 
-#include <xc.h>
 #include <HardwareProfile.h>
 #include <TimeDelay.h>
 #include <TouchScreen.h>
@@ -20,7 +17,7 @@ typedef struct
     unsigned      x: 4;     // x coordinate on the touch grid
     unsigned      y: 4;     // y coordinate on the touch grid
     unsigned  valid: 1;     // flag, indicates a valid touch event detected
-    unsigned option: 1;     // flag, can be use to capture long touch events
+    unsigned option: 1;     // flag, can be used to capture long touch events
 } code_t;
 
 

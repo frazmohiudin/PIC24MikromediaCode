@@ -31,6 +31,7 @@
         <itemPath>../uMB/TouchScreenResistive.c</itemPath>
         <itemPath>../uMB/LCDTerminal.c</itemPath>
         <itemPath>../uMB/LCDTerminalFont.c</itemPath>
+        <itemPath>../uMB/TouchGrid.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>

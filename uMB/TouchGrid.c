@@ -1,7 +1,6 @@
 /*
  * File:   TouchGrid.c
  *
- *
  * Requires: MLA 1306, LCDTerminal.c, TouchScreen.c
  */
 
@@ -12,6 +11,12 @@
 
 
 static int Xside=1, Yside=1;
+
+void setGrid( int x, int y)
+{
+    Xside = (GetMaxX()+1)/x;  Yside = (GetMaxY()+1)/y;
+}
+
 
 void TouchGridInit( int x, int y)
 {
@@ -30,7 +35,7 @@ void TouchGridInit( int x, int y)
 
 
 code_t TouchGet( void)
-{   // returns 10..1F if screen pressed, 0 = none
+{  
     int x, y;
     code_t r;
 
@@ -44,12 +49,10 @@ code_t TouchGet( void)
         return r;       // return if no valid code found
 
     // 3. identify point on grid (4x4)
-    r.y  = y / ( Yside); r.x =  x / ( Xside) ;
+    r.y = y / ( Yside); r.x = x / ( Xside) ;
     r.valid = 1;
     r.option = 0;
-
     return r;
-
 } // TouchGet
 
 
@@ -93,9 +96,3 @@ code_t TouchGrid( void)
     return r;
 
 } // TouchGrid
-
-
-void setGrid( int x, int y)
-{
-    Xside = (GetMaxX()+1)/x;  Yside = (GetMaxY()+1)/y;
-}
