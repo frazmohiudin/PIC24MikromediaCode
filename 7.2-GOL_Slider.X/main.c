@@ -13,26 +13,6 @@
 #include <TouchScreen.h>
 #include <M25P80.h>
 
-
-void BacklightInit()
-{
-    // configure OC1 block to generate a PWM signal
-    OC1CON1bits.OCTSEL = 0x7;           // use peripheral clock (16Mhz)
-    OC1CON1bits.OCM = 0x6;              // edge aligned PWM
-    OC1CON2 = 0;                        // No SYnchronizations required
-    OC1R =  0xfffe;                     // start off with max value
-    OC1RS = 0xffff;                     // set period  ~ 240Hz (16MHz/65.536)
-    PPSOutput( PPS_RP23, PPS_OC1);      // OC1 =RP23 D2/pin 77
-
-} // Backlight Init
-
-
-void BacklightSet( int i)
-{
-    OC1R = i<<8;
-}
-
-
 int main( void)
 {
     GOL_MSG msg;

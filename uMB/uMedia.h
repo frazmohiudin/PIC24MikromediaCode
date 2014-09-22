@@ -24,6 +24,8 @@
 void uMBInit( void);            // init standard hw configuration
 void TickInit( unsigned);       // init Timer3 as the main app tick
 
+void BacklightInit( void);
+void BacklightSet( unsigned);
 void ScreenCapture( char *filename);
 
 #endif // _MIKROE_uMB

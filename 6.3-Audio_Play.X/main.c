@@ -4,14 +4,11 @@
  *
  * Requires: MLA 1306
  */
-
 #include "PICconfig.h"
-
 #include "Graphics/Graphics.h"
 #include "MDD File System/FSIO.h"
 #include "uMedia.h"
 #include "vs1053.h"
-
 
 int main( void )
 {

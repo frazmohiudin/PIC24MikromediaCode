@@ -53,7 +53,7 @@
 
 // prototypes
 WORD writeMP3( BYTE b);
-void writeMP3Register(BYTE reg, unsigned w);
+void writeMP3Register(BYTE reg, WORD w);
 WORD readMP3Register( BYTE reg);
 
 void MP3Init( WORD mode);

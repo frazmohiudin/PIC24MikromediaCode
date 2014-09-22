@@ -1,7 +1,7 @@
 /********************************************************************
- Project:  8-CDC_Serial
- File:     main.c
- 
+ *  Project:  8-CDC_Serial
+ *
+ * File:     main.c
  ********************************************************************/
 
 #include <PICconfig.h>
@@ -14,25 +14,14 @@
 #include <M25P80.h>
 #include <uMedia.h>
 
-
-/** V A R I A B L E S ********************************************************/
-
 volatile int Xvalue, Yvalue;
 
-
-/********************************************************************/
 static void InitializeSystem(void)
 {
-    DRV_SPI_INIT_DATA si = SPI_FLASH_CONFIG;
-
     uMBInit();
 
-    // intialize the Serial Flash
-    SST25_CS_LAT = 1;
-    SST25_CS_TRIS = 0;
-    FlashInit( &si);
-
-    LCDInit(); DisplayBacklightOn();
+    LCDInit();
+    DisplayBacklightOn();
 
     TouchInit( NVMWrite, NVMRead, NVMSectorErase, NULL);
 
