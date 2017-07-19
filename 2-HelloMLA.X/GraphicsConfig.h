@@ -1,6 +1,6 @@
 /*********************************************************************
  * Configuration Module for Microchip Graphics Library
- * This file contains compile time options for the Graphics Library. 
+ * This file contains compile time options for the Graphics Library.
  ********************************************************************/
 #ifndef _GRAPHICSCONFIG_H
 #define _GRAPHICSCONFIG_H
@@ -27,7 +27,7 @@
 //#define USE_KEYBOARD              // Enable key board support.
 
 /*********************************************************************
-* Overview: To save program memory, unused Widgets or Objects can be 
+* Overview: To save program memory, unused Widgets or Objects can be
 *   removed at compile time.
 *********************************************************************/
 #define USE_GOL                     // Enable Graphics Object Layer.
